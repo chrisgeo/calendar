@@ -1,3 +1,8 @@
+
+Live Example: https://chrisgeo.github.com/facebook
+
+======================
+
 UI Engineering Puzzle
 Part I: Write a function (either PHP or JS) to lay out a series of events on the calendar for a single day.
  
