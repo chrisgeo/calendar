@@ -24,7 +24,64 @@ pre {
   white-space: pre;
 }
 
-#calendar {
-  width: 600px;
-  height: 720px;
+.time-layout {
+  padding: 0 10px 0 0;
+  display: inline-block;
+}
+
+.canvas {
+  display: inline-block;
+  position: relative;
+  background-color: #ECECEC;
+  border: 2px solid #D6D6D6;
+  margin: 0;
+  padding: 0 10px 0 10px;
+  font-family: "Lucida Grande";
+}
+
+.hidden {
+  display: none;
+}
+
+.on-hour, .half-hour {
+  display: block;
+  height: 30px;
+  text-align: right;
+  color: rgb(118,118,118);
+  font-size: 0.9em;
+}
+
+.on-hour {
+  font-weight: bold;
+  color: rgb(104,104,104);
+}
+
+.half-hour {
+  font-size: 0.8em;
+  color: rgb(166,166,166);
+}
+
+
+.event {
+  position: absolute;
+  border: 1px solid rgb(213,213,213);
+  border-left: 4px solid rgb(75,110,169);
+  background-color: white;
+}
+
+/* for IE ... */
+.event h4, .event span {
+  margin: 10px 0 0 5px;
+  display: block;
+}
+
+.event span {
+  color: #2E4FDB;
+  font-size: 0.75em;
+  font-weight: bold;
+}
+
+.event h4 {
+  color: #797979;
+  font-size: 0.8em;
 }
