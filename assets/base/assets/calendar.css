@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+pre {
+  background: none repeat scroll 0 0 #333333;
+  -webkit-border-radius:8px 8px 8px 8px;
+  -moz-border-radius:8px 8px 8px 8px;
+  border-radius: 8px 8px 8px 8px;
+  color: white;
+  font-family: Courier,MonoSpace;
+  line-height: 1.8;
+  margin: 0 0 20px;
+  overflow: auto;
+  padding: 10px;
+  position: relative;
+  width: 730px;
+  margin: 0 auto;
+  font-size: 12px;
+}
+
+.formatted {
+  white-space: pre;
+}
+
+#calendar {
+  width: 600px;
+  height: 720px;
+}
