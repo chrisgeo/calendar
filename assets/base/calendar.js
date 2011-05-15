@@ -16,7 +16,7 @@ An event that starts at 7:10pm pm and ends at 8:10pm
 
 
 
-var testData = [
+var test_data = [
   {id : 4, start : 610, end : 670},
   {id : 1, start : 30, end : 150},
   {id : 2, start : 540, end : 600},
