@@ -1,5 +1,5 @@
 
-Live Example: https://chrisgeo.github.com/facebook
+Live Example: http://chrisgeo.github.com/facebook
 
 ======================
 
