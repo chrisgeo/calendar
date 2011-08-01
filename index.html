@@ -10,21 +10,21 @@
   <h1>Here's a little something I wrote all the way back in 2009</h1>
     <h2>Problem Description</h2>
     <h3>
-      Part I: Write a function (either PHP or JS) to lay out a series of events on the calendar for a single day.
+      Write a function to lay out a series of events on the calendar for a single day.
     </h3>
     <p class="formatted">
-    Events will be placed on a canvas.  The top of the canvas represents 9am and the bottom represents 9pm.
-    The width of the canvas will be 620px (10px padding on either side) and the height will be 720px (1 pixel for every minute between 9am and 9pm).
+    Events will be placed on a canvas. The start of the calendar is at 9am and the end is 9pm.
+    The width of the canvas will be 620px (10px padding on either side) and the height will be 720px 
     The objects should be laid out so that they do not visually overlap on the canvas. 
     If there is only one event at a given time slot, its width should be 600px.
      
    
     There are 2 major constraints:
-    -Every colliding event must be the same width as every other event that it collides width.
-    -An event should use the maximum width possible while still adhering to the first constraint.
+        -Every colliding event must be the same width as every other event that it collides width.
+        -An event should use the maximum width possible while still adhering to the first constraint.
      
     <img src="assets/base/assets/calendar_part1.png" /> 
-    The input to the function will be an array of event objects with the start and end times of the event. Example (JS):
+    The input to the function will be an array of event objects with the start and end times of the event:
     </p>
     <pre>
     <code>
@@ -54,14 +54,14 @@
            the left and top positions set.
            In addition to start time, end time, and id. 
         **/
-        Function  layOutDay(events) {
+        function  layOutDay(events) {
 
         }
       </code>
     </pre>
     </p>
     <h3>
-      Part II: Use your function from Part I to create a web page that is styled just like the example image  calendar2.png with the following calendar events:
+        Use your function from to layout your calendar like the below image using the following data:
     </h3>
     <p class="formatted">
     An event that starts at 9:30am and ends at 11:30am
